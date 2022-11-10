@@ -31,12 +31,22 @@ link.forEach((i) => {
       burger.classList.remove(`active`);
       menuClose();
     } else {
-      dropdown.forEach(i=>{
+      dropdown.forEach((i) => {
         i.addEventListener(`click`, () => {
           burger.classList.remove(`active`);
           menuClose();
-        })
-      })
+        });
+      });
     }
   });
 });
+
+
+// ACCORDEON
+
+const faqItem = document.querySelectorAll(`.faq-item`);
+faqItem.forEach(i=>{
+  i.addEventListener(`click`,()=>{
+    i.classList.toggle(`active`)
+  })
+})
