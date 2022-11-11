@@ -683,7 +683,7 @@ footer .footer__wrapper .footer__flex-wrapper-menu .footer__wrapper_nav-menu .fo
   }
   header nav .nav-wrapper .nav-menu {
     position: fixed;
-    background: rgba(0, 0, 0, 0.68);
+    background: rgba(0, 0, 0, 0.8);
     justify-content: center !important;
     align-items: center;
     flex-direction: column;
