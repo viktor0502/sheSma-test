@@ -705,7 +705,7 @@ footer .footer__wrapper .footer__flex-wrapper-menu .footer__wrapper_nav-menu .fo
   }
   .benefits {
     padding-top: 20px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
   }
   .benefits h2 {
     display: none;
@@ -737,8 +737,8 @@ footer .footer__wrapper .footer__flex-wrapper-menu .footer__wrapper_nav-menu .fo
     font-weight: 500;
   }
   .products {
-    padding-top: 100px;
-    padding-bottom: 60px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
   .products .products__wrapper {
     flex-wrap: wrap;
@@ -761,6 +761,41 @@ footer .footer__wrapper .footer__flex-wrapper-menu .footer__wrapper_nav-menu .fo
   .products .products__wrapper .product__item .rating img {
     width: 12px;
     margin-bottom: 0;
+  }
+  .reviews .swiper-reviews {
+    padding-bottom: 100px;
+  }
+  .reviews h2 {
+    margin-bottom: 40px;
+  }
+  .reviews .reviews__wrapper {
+    gap: 40px;
+  }
+  .reviews .reviews__wrapper .reviews__item .reviews__item-title {
+    font-size: 16px !important;
+    line-height: 200% !important;
+  }
+  .reviews .reviews__wrapper .reviews__item .reviews__item-text {
+    font-size: 14px !important;
+    line-height: 200% !important;
+  }
+  .make-your-home {
+    padding: 50px 0;
+  }
+  .make-your-home .make__wrapper .make__wrapper-content p {
+    font-size: 16px;
+  }
+  footer {
+    padding: 50px 0;
+  }
+  footer .footer__wrapper .footer__wrapper-logo {
+    max-width: 178px;
+  }
+  footer .footer__wrapper .footer__flex-wrapper-menu .footer__wrapper_nav-menu .nav-menu-title {
+    font-size: 18px;
+  }
+  footer .footer__wrapper .footer__flex-wrapper-menu .footer__wrapper_nav-menu .footer__nav-list .footer__nav-item .footer__nav-link {
+    font-size: 16px;
   }
 }
 @media (max-width: 576px) {
