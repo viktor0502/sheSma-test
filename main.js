@@ -1,5 +1,5 @@
 const navDropDown = document.querySelector(`.nav-dropdown`);
-const dropdownList = document.querySelector(`.dropdown-list`);
+const dropdownList = document.querySelector(`.nav-dropdown__list`);
 navDropDown.addEventListener(`click`, () => {
   navDropDown.classList.toggle(`active`);
 });
@@ -12,9 +12,9 @@ for (let i of dropdownList.children) {
 }
 // Burger-menu
 const burger = document.querySelector(`.burger-btn`),
-  navMenu = document.querySelector(`.nav-menu`),
-  link = document.querySelectorAll(`.nav-link`),
-  dropdown = document.querySelectorAll(`.dropdown-link`);
+  navMenu = document.querySelector(`.nav__menu`),
+  link = document.querySelectorAll(`.nav__link`),
+  dropdown = document.querySelectorAll(`.nav-dropdown__link`);
 const scrollLock = () => {
     document.body.classList.add(`scroll-lock`);
   },
@@ -57,7 +57,7 @@ link.forEach((i) => {
 
 // ACCORDEON
 
-const faqItem = document.querySelectorAll(`.faq-item`);
+const faqItem = document.querySelectorAll(`.vizualize-faq__item`);
 faqItem.forEach(i=>{
   i.addEventListener(`click`,()=>{
     i.classList.toggle(`active`)
